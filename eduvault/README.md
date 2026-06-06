@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# EduVault
 
-# Run and deploy your AI Studio app
+A modern educational platform built with:
 
-This contains everything you need to run your app locally.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-View your app in AI Studio: https://ai.studio/apps/2b49b12b-31a3-483c-91f2-0b0536eb3761
+## Features
+
+- Student Dashboard
+- College Predictor
+- Application Tracking
+- Saved Colleges
+- College Comparison
+- Responsive Design
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+## Deployment
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Deployed on Vercel.
